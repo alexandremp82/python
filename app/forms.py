@@ -5,5 +5,5 @@ from app.models import Carros
 class carrosForm(ModelForm):
     class Meta:
         model = Carros
-        fields = ['modelo', 'marca', 'ano']
+        fields = ['modelo', 'marca', 'ano', 'estoque']
 
